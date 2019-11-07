@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: red;
+    width: 100%;
+    height: 200px;
+}
+
+.body {
+    display: flex;
+}
+
+.side {
+    flex: 1;
+    background-color: rgb(2, 192, 250);
+    height: 700px;
+}
+
+.content {
+    flex: 3;
+    background-color: blue;
+    height: 700px;
+    display: flex;
+}
+
+.row {
+    display: flex;
+}
+.footer {
+    background-color: chartreuse;
+    text-align: center;
+    padding: 50px;
+}
+
+.card {
+    border-style: solid;
+    width: 25%;
+    height: 300px;
+    
+}
+
+
+.image {
+    width: 100%;
+    height: 200px;
+}
